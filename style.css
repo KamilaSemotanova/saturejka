@@ -63,22 +63,52 @@ body{
 
 .losos{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto 500px;
 }
 
 .grid-item1 {
-    width: 45%;
+    width: 60%;
     margin-left: 4%;
 }
 
 .grid-item2 {
-    width: 45%;
+    width: 80%;
     margin: 10px;
 }
 
 .see_menu {
     background-color: #ffefef;
     padding: 10px;
+}
+
+.tagliatelle {
+    display: grid;
+    grid-template-columns: 500px auto;
+}
+
+.grid-item3 {
+    width: 80%;
+    margin: 10px;
+}
+
+.grid-item4 {
+    width: 60%;
+    margin-left: 4%;
+}
+
+.dezert {
+    display: grid;
+    grid-template-columns: auto 500px;
+}
+
+.grid-item5 {
+    width: 60%;
+    margin-left: 4%;
+}
+
+.grid-item6 {
+    width: 80%;
+    margin: 10px;
 }
 
 .disclaimer {
