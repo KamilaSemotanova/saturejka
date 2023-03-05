@@ -28,8 +28,7 @@ body{
 }
 
 .title {
-    width: 370px;
-    align-self: center;
+    width: 70%;
 }
 
 .menu{
@@ -40,7 +39,7 @@ body{
 }
 
 .picture {
-    width: 200px;
+    width: 25%;
     flex-basis: auto;
 }
 
@@ -60,4 +59,18 @@ body{
     grid-template-columns: auto auto;
     margin: 60px 30px 50px 30px;
     column-gap: 20px;
+}
+
+.losos{
+    display: grid;
+    grid-template-columns: 1 auto;
+}
+
+.grid-item1 {
+    width: 90%;
+    margin-left: 4%;
+}
+
+.grid-item2 {
+    width: 50%;
 }
