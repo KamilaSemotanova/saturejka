@@ -72,9 +72,13 @@ body{
 }
 
 .grid-item2 {
-    width: 50%;
+    margin: 10px;
 }
 
+.see_menu {
+    background-color: #ffefef;
+    padding: 10px;
+}
 
 .disclaimer {
     width: 40px;
