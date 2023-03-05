@@ -63,15 +63,16 @@ body{
 
 .losos{
     display: grid;
-    grid-template-columns: 1 auto;
+    grid-template-columns: auto auto;
 }
 
 .grid-item1 {
-    width: 90%;
+    width: 45%;
     margin-left: 4%;
 }
 
 .grid-item2 {
+    width: 45%;
     margin: 10px;
 }
 
